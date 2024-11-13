@@ -1,0 +1,81 @@
+.Menu{
+    width: 15%;
+    height: 50%;
+    position: absolute;
+    left: 15px;
+    background-color: #fff;
+    transition: 0.5s ease;
+}
+.Menu h1{
+    color: black;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 100px;
+    text-align: right;
+    padding: 10px 0;
+    padding-right: 30px;
+    pointer-events: none;
+
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    color: black;
+    font-weight: 500;
+    padding: 5px 0;
+    display: block;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+}
+ul li a i{
+    width: 40px;
+    text-align: center;
+}
+input{
+    display: none;
+    visibility: hidden;
+}
+.toggle{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    left: 15px;
+    z-index: 1;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0, 0, 0.3);
+}
+
+.toggle .common{
+    position: absolute;
+    height: 2px;
+    width: 20px;
+    background-color: black;
+    z-index: 2;
+}
+.toggle .TopLine{
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.toggle .MiddleLine{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.toggle .BottomLine{
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+input:checked ~ .toggle .BottomLine{
+    left: 2px;
+    top: 14px;
+    width: 25px;
+    transform: rotate(-45deg);
+}
+input:checked ~ .Menu{
+    transform: translateX(0);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}

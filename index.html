@@ -12,19 +12,42 @@
     <link rel="stylesheet" href="content.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="Sidebar.css">
 </head>
 <body>
     <header>
         <button id="Login">Login</button>
         <button id="About">About us</button>
         <button id="Contact">Contact</button>
-        <button id="Menu"></button>
+        
+        <!--CheckBox para controlar la apertura del menu-->
+        <input type="checkbox">
+        <label for = "menuToggle" class="toggle">
+                <span class="TopLine common"></span>
+                <span class="MiddleLine common"></span>
+                <span class="BottomLine common"></span>
+    </label>
+
+    <label>
+        <div class="Menu">
+            <h1>Menu</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </label>
+    
+
     </header>
 
     <div id="title">
         <h1>TermoBox</h1>
         <h2>Nunca más comeras frío</h1>
     </div>
+
+    
         
 </body>
 </html>
