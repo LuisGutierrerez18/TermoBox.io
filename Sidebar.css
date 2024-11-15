@@ -14,9 +14,12 @@
     font-family: "Inria Sans", sans-serif;
     font-weight: 100px;
     text-align: right;
-    padding: 10px 0;
-    padding-right: 30px;
+    padding: 0px 30px 0px 0px;
+    margin-top: 10px;
     pointer-events: none;
+}
+ul {
+    padding-left: 0px;
 }
 ul li{
     list-style: none;
@@ -55,6 +58,7 @@ input{
     z-index: 4;
     background-color: rgb(7, 7, 7);
     box-shadow: 0 0 10px rgba(0,0, 0, 0.3);
+    transition: all 0.2s ease-in;
 }
 input:checked ~ .toggle {
     background-color: #fff; /* Fondo blanco cuando el menú se despliega */
@@ -82,6 +86,7 @@ input:checked ~ .toggle {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    transition: all 0.2s ease-in;
 }
 .toggle .BottomLine{
     width: 30px;
@@ -90,6 +95,7 @@ input:checked ~ .toggle {
     top: 70%;
     left: 50%;
     transform: translate(-50%,-50%);
+    transition: all 0.2s ease-in;
 }
 input:checked ~ .toggle .TopLine{
     left: 2px;
@@ -98,6 +104,7 @@ input:checked ~ .toggle .TopLine{
     transform: rotate(45deg);
     background-color: black;
     transition: background-color 0.3s ease;
+    transition: all 0.2s ease-in;
 }
 input:checked ~ .toggle .MiddleLine{
    background-color: transparent;

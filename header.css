@@ -40,36 +40,18 @@ header{
     color: aliceblue;
     align-items: center; 
     display: flex;
-    justify-content: center;
-    padding: 2rem;
+    justify-content: flex-end;
+    /* toggle + padding + extra */
+    min-height: calc(40px + 20px + 5px);
+    padding: 10px;
     margin: -8px;
     border-bottom: 12px solid #333;
 }
-header #Login{
-    font-size: 20px;
-    position: absolute;
-    top: 8px;
-    right: 70px;
-    background-color: transparent;
-    color: white;
-    border-color: transparent;
-    cursor: pointer;
+header > .buttons-wrap {
+  margin-left: 50px;
 }
-header #About{
-    font-size: 20px;
-    position: absolute;
-    top: 10px;
-    right: 170px;
-    background-color: transparent;
-    color: white;
-    border-color: transparent;
-    cursor: pointer;
-}
-header #Contact{
-    font-size: 20px;
-    position: absolute;
-    top: 10px;
-    right: 300px;
+header button {
+    font-size: 1rem;
     background-color: transparent;
     color: white;
     border-color: transparent;
