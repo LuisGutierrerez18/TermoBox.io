@@ -68,7 +68,7 @@ head{
     font-size: 120px;
     position: relative;
     text-align: center;
-    color: azure;
+    color: rgb(226, 237, 237);
     /*color: rgb(8, 8, 8);*/
     font-family:"Inria Sans", serif;
     font-weight: 1000;
@@ -76,6 +76,7 @@ head{
 }
 #title{
     background-color: rgb(98, 98, 98);
+    background-image: linear-gradient(to bottom, rgb(98, 98, 98), rgb(238, 236, 236));
     /*background-color: rgb(217, 217, 217);*/
     /*background-color: rgb(119,136,153);*/
     padding: 5rem 0; 
@@ -107,7 +108,7 @@ head{
   font-family:"Inria Sans", serif;
   right: center;
   position: absolute;
-  color: azure;
+  color: rgb(226, 237, 237);
   font-weight: 100;
   overflow: hidden; 
   white-space: nowrap; 
