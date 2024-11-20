@@ -42,7 +42,7 @@ header{
     display: flex;
     justify-content: flex-end;
     /* toggle + padding + extra */
-    min-height: calc(40px + 20px + 5px);
+    min-height: calc(40px + 20px + 5px); 
     padding: 10px;
     margin: -8px;
     border-bottom: 12px solid #333;
@@ -79,7 +79,7 @@ head{
     background-image: linear-gradient(to bottom, rgb(98, 98, 98), rgb(238, 236, 236));
     /*background-color: rgb(217, 217, 217);*/
     /*background-color: rgb(119,136,153);*/
-    padding: 5rem 0; 
+    padding: 1rem 0;
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -101,15 +101,15 @@ head{
   cursor: pointer;
 }
 #title h2{
-  top: 350px;
+  top: 250px;
   font-size: 60px;
   align-items: center;
   justify-content: center;
   font-family:"Inria Sans", serif;
   right: center;
   position: absolute;
-  color: rgb(226, 237, 237);
-  font-weight: 100;
+  color: rgb(53, 52, 48);
+  font-weight: 300;
   overflow: hidden; 
   white-space: nowrap; 
   border-right: 3px solid; 
