@@ -22,7 +22,15 @@
             <button id="Contact">Contact</button>
             <button id="Login">Login</button>
         </div>
-        
+    <div id="login-form" style="display: none;">
+    <form action="" method="POST">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="EMAIL" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="PASS" required><br><br>
+        <button type="submit">Login</button>
+    </form>
+    </div>    
         <!--CheckBox para controlar la apertura del menu-->
         <input type="checkbox" id="menu-toggle">
         <label for = "menu-toggle" class="toggle">
@@ -47,7 +55,16 @@
         <h2>Nunca más comeras frío</h1>
     </div>
 
-    
+    <script>
+    document.getElementById('Login').addEventListener('click', function() {
+        const loginForm = document.getElementById('login-form');
+        if (loginForm.style.display === 'none') {
+            loginForm.style.display = 'block';
+        } else {
+            loginForm.style.display = 'none';
+        }
+    });
+    </script> 
         
 </body>
 </html>
