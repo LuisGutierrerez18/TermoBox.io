@@ -64,7 +64,7 @@ head{
     background-color: black;
 }
 #title h1{
-    top: 10px;
+    top: flex;
     font-size: 120px;
     position: relative;
     text-align: center;
