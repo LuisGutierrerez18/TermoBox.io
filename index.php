@@ -23,16 +23,9 @@
         <div class="buttons-wrap">
             <button id="About">About us</button>
             <button id="Contact">Contact</button>
-            <button id="Login">Login</button>
+            <button id="Login" onclick="window.location.href='php/login.php'">Login</button>
         </div>
-    <div id="login-form" style="display: none;">
-    <form action="" method="POST">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="EMAIL" required><br><br>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="PASS" required><br><br>
-        <button type="submit">Login</button>
-    </form>
+
     </div>    
         <!--CheckBox para controlar la apertura del menu-->
         <input type="checkbox" id="menu-toggle">
