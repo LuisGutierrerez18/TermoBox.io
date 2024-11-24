@@ -57,11 +57,13 @@
             </select>
         </form>
     </div>
-    <div id = "TemperaturaReal">
-        <h3>Esta es la Temperatura en tiempo real</h3>
-    </div>
-    <div id = "HumedadReal">
-        <h3>Esta es la Humedad en tiempo real</h3>
-    </div>
+    <div id="container">
+        <div id="TemperaturaReal">
+            <h3>Temperatura Real</h3>
+        </div>
+        <div id="HumedadReal">
+            <h3>Humedad Real</h3>
+        </div>
+</div>
 </body>
 </html>
