@@ -33,19 +33,13 @@
     </div>
     <div id = "SeleccionComida">
         <h3>Selecciona tu comida</h3>
-        <p>En esta funcion podrás seleccionar la comida que deseas guardar y automaticamente te diremos cuál es la 
-            temperatura y humedad ideal. <br> Dentro de las opciones podrás escoger si tu alimento entra en alguna de las 
-            siguientes categorias: <br>
-            <br> 
-            Carne <br>
-            Pasta <br>
-            Pescado <br>
-            Pollo <br>
-            Sopa <br>
-
-            <br> 
-            Tranquilo, no te preocupes, nosostros te avisamos si tu alimento se encuentra dentro de los rangos ideales. 
-        </p>
+        <div class="tooltip-container">
+            <span class="tooltip-btn">?</span>
+            <div class="tooltip-text">En esta funcion podrás seleccionar la comida que deseas guardar y automaticamente te diremos cuál es la 
+                temperatura y humedad ideal. <br> Dentro de las opciones podrás escoger el alimento que estarás guardando <br></div>
+        </div>
+        
+            <h4>No te preocupes, nosostros te avisamos si tu alimento se encuentra dentro de los rangos ideales.</h4> 
         <form>
         <label for="comida">¿Que deseas guardar hoy? <br></label>
             <select name="comida" id="comida">
