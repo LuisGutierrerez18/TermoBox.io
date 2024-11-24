@@ -14,7 +14,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="content.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="Sidebar.css">
@@ -46,7 +45,7 @@
         <div class="Menu">
             <h1>Menu</h1>
             <ul>
-                <li><a href="#">TermoBox</a></li>
+                <li><a href="miTermoBox.php">TermoBox</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
