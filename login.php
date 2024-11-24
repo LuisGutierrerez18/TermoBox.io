@@ -1,4 +1,5 @@
 <?php
+    session_start();
     include 'connection.php'; // Importa la conexión a la base de datos
 
     // Verifica si los datos del formulario han sido enviados
@@ -15,10 +16,13 @@
 
         // Validar credenciales
         if ($result->num_rows > 0) {
-            echo "Bienvenido, has iniciado sesión correctamente.";
-            // Aquí podrías iniciar sesión con `session_start()`
+            $user = $result->fetch_assoc();
+            //echo "Bienvenido, has iniciado sesión correctamente.";
+            $_SESSION['user'] = $user['Nombre'];
+            header("Location: index.php"); // Redireccionar a la pagina principal
+            exit();
         } else {
-            echo "Correo o contraseña incorrectos.";
+            $errorMessage = "Correo o contraseña incorrectos.";
         }
 
         $stmt->close();

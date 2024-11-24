@@ -1,4 +1,5 @@
 <?php
+    session_start();
     include 'connection.php'
 ?>
 <!DOCTYPE html>
@@ -21,9 +22,16 @@
 <body>
     <header>
         <div class="buttons-wrap">
-            <button id="About">About us</button>
-            <button id="Contact">Contact</button>
-            <button id="Login" onclick="window.location.href='php/login.php'">Login</button>
+            <!--<button id="About">About us</button>
+            <button id="Contact">Contact</button> -->
+            <?php if (isset($_SESSION['user'])): ?>
+                <span>Bienvenido, <?php echo htmlspecialchars($_SESSION['user']); ?></span>
+                <form action="logout.php" method="POST" style="display: inline;">
+                    <button type="submit">Cerrar sesión</button>
+                </form>
+            <?php else: ?>
+            <button id="Login" onclick="window.location.href='login.php'">Login</button>
+            <?php endif; ?> 
         </div>
 
     </div>    
@@ -38,8 +46,8 @@
         <div class="Menu">
             <h1>Menu</h1>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a href="#">TermoBox</a></li>
+                <li><a href="#">About Us</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
@@ -61,6 +69,6 @@
         }
     });
     </script> 
-        
+<script src ="termoBox.js"></script> 
 </body>
 </html>
