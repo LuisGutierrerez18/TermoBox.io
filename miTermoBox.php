@@ -7,7 +7,7 @@ include 'temperatura.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>miTermoBox</title>
-    <link rel="stylesheet" href="content.css?v=1">
+    <link rel="stylesheet" href="content.css?v=2">
     <link rel="stylesheet" href="Sidebar.css?v=1">
 </head>
 <body>
