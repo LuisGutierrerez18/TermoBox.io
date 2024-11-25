@@ -168,7 +168,13 @@ form button:hover {
 }
 #TemperaturaReal h4 {
     font-size: 36px; 
-    color: #ff4500;  
+    color: #ffe100;  
+    text-align: center; 
+    margin-top: 20px; 
+}
+#HumedadReal h4 {
+    font-size: 36px; 
+    color: #ffe100;  
     text-align: center; 
     margin-top: 20px; 
 }

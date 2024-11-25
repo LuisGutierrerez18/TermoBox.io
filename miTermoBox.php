@@ -1,5 +1,6 @@
 <?php
 include 'temperatura.php'; 
+include 'humedad.php'
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -61,6 +62,7 @@ include 'temperatura.php';
         </div>
         <div id="HumedadReal">
             <h3>Humedad Real</h3>
+            <h4><?php echo htmlspecialchars($humedad); ?> %</h4>
         </div>
 </div>
 </body>
