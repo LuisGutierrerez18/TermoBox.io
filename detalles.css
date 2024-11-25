@@ -1,0 +1,40 @@
+#InfoContainer {
+    flex-direction: row; 
+    gap: 10px; 
+    display: flex;
+    margin: 20px 0;
+    width: 100%;
+    padding-top: 100px;
+}
+#QuesEs, #QueHace {
+    width: 100%; 
+    margin: 0; 
+}
+#QueEs{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center
+}
+#QueHace{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center
+}
+/* Estilo para los cuadros de Temperatura y Humedad */
+#QueEs, #QueHace {
+    /*background-color: #333;*/
+    background-color: #a7a7a7;
+    color: #fbf8f8;
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48%;  
+    margin: 100px; 
+}
+#QueEs, #QueHace {
+    flex: 1; 
+}

@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="Sidebar.css">
+    <link rel="stylesheet" href="detalles.css">
 </head>
 <body>
     <header>
@@ -68,6 +69,26 @@
         }
     });
     </script> 
+
+    <div id = "InfoContainer">
+        <div id = "QueEs">
+            <h1>¿Que es?</h1>
+                <p>
+                    TermoBox es un recipiente para comida inspirado en el estilo de los tuppers. 
+                    Está dotado de un recubrimiento aislante y térmico. Es una opción versátil y portátil para el 
+                    trasnporte de los alimentos.
+                </p>
+        </div>
+        <div id = "QueHace">
+            <h1>¿Que hace?</h1>
+                <p>
+                    No tan solo conserva los alimentos en condiciones estables, además, está dotado de un sensor 
+                    que mide temperatura y humedad, y lo reporta a una aplicación para informar si las condiciones 
+                    son óptimas según el alimento almacenado.
+                </p>
+        </div>
+    </div>
+
 <script src ="termoBox.js"></script> 
 </body>
 </html>
