@@ -1,10 +1,8 @@
 <?php
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
 include 'connection.php'; // Archivo que conecta a la base de datos
 
-// Consulta para obtener la temperatura
-$sql = "SELECT data_sensor FROM Humedad WHERE id = 1"; 
+// Consulta para obtener la temperatura más reciente
+$sql = "SELECT data_sensor FROM Humedad ORDER BY hora DESC LIMIT 1"; 
 $result = $conn->query($sql);
 
 if ($result && $result->num_rows > 0) {
