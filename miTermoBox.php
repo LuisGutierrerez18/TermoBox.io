@@ -1,3 +1,6 @@
+<?php
+include 'temperatura.php'; 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,6 +57,7 @@
     <div id="container">
         <div id="TemperaturaReal">
             <h3>Temperatura Real</h3>
+            <h4><?php echo htmlspecialchars($temperatura); ?> °C</h4>
         </div>
         <div id="HumedadReal">
             <h3>Humedad Real</h3>
