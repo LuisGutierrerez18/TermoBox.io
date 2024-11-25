@@ -45,7 +45,7 @@ header{
     min-height: calc(40px + 20px + 5px); 
     padding: 10px;
     margin: -8px;
-    border-bottom: 12px solid #333;
+    border-bottom: 10px solid #333;
 }
 header > .buttons-wrap {
   margin-left: 50px;
@@ -76,10 +76,10 @@ head{
 }
 #title{
     background-color: rgb(98, 98, 98);
-    background-image: linear-gradient(to bottom, rgb(98, 98, 98), rgb(238, 236, 236));
+    background-image: linear-gradient(to bottom, rgb(19, 19, 19), rgb(238, 236, 236));
     /*background-color: rgb(217, 217, 217);*/
     /*background-color: rgb(119,136,153);*/
-    padding: 1rem 0;
+    padding: 3rem 0;
     display: flex;
     justify-content: center; 
     align-items: center;
