@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Sue+Ellen+Francisco&display=swap');
 #InfoContainer {
     flex-direction: row; 
     gap: 10px; 
@@ -5,6 +6,8 @@
     margin: 20px 0;
     width: 100%;
     padding-top: 100px;
+    background-color: #F8F8FB;
+    border-radius: 20px;
 }
 #QuesEs, #QueHace {
     width: 100%; 
@@ -25,7 +28,7 @@
 /* Estilo para los cuadros de Temperatura y Humedad */
 #QueEs, #QueHace {
     /*background-color: #333;*/
-    background-color: #a7a7a7;
+    background-color: #ffffff;
     color: #fbf8f8;
     border-radius: 10px;
     padding: 1rem;
@@ -34,7 +37,14 @@
     align-items: center;
     width: 48%;  
     margin: 100px; 
+    color: black;
 }
 #QueEs, #QueHace {
     flex: 1; 
+}
+#QueEs, #QueHace h1{
+    font-family: "Inria-Sans", sans-serif;
+}
+p{
+    font-family: "Inria-Sans", sans-serif;
 }
