@@ -79,7 +79,7 @@ head{
     background-image: linear-gradient(to bottom, rgb(19, 19, 19), rgb(238, 236, 236));
     /*background-color: rgb(217, 217, 217);*/
     /*background-color: rgb(119,136,153);*/
-    padding: 3rem 0;
+    padding: 7rem 0;
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -101,7 +101,7 @@ head{
   cursor: pointer;
 }
 #title h2{
-  top: 250px;
+  top: 420px;
   font-size: 60px;
   align-items: center;
   justify-content: center;
